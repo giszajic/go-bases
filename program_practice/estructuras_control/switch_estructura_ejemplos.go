@@ -48,6 +48,16 @@ func evaluarNumero2(numero int) {
 	default:
 		fmt.Println("El número no cumple ninguna condición")
 	}
+
+	/* otro ejemplo:
+	   day := "domingo"
+
+	   switch day {
+	   case "lunes", "martes", "miércoles", "jueves", "viernes":
+	       fmt.Printf("%s es un día de la semana\n", day)
+	   default:
+	       fmt.Printf("%s es un día del fin de la semana\n", day)
+	*/
 }
 
 // Switch con fallthrough
