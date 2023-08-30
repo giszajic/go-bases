@@ -1,10 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
+/*
 func main() {
 	meses := []string{"Enero", "Febrero", "Abril", "Junio", "Agosto"}
 
@@ -27,4 +25,17 @@ func ObtenerEstacion(meses []string) {
 			fmt.Println("No existe ese mes")
 		}
 	}
+}
+*/
+
+func main() {
+	var phrase string = "Hello"
+
+	length := len(phrase)
+	fmt.Println("Length: ", length, "\n")
+
+	for i, letter := range phrase {
+		fmt.Println("La letra ", i+1, " es: ", string(letter))
+	}
+
 }
