@@ -32,7 +32,8 @@ func calcularPromedio(notas []int) float32 {
 func main() {
 
 	notas := []int{8, 3, 10, 7, 6, 10}
-	promedio := calcularPromedio(notas)
 
+	promedio := calcularPromedio(notas)
 	fmt.Println("El promedio del alumno es: ", promedio)
+
 }
