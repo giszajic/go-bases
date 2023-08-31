@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//ingreso manual
+	//ingreso hardcodeado
 	var username string
 	username = "Gise Zajic"
 	fmt.Println("Hello, ", username, "!")
