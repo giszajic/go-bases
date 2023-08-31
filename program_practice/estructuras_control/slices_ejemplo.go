@@ -44,8 +44,8 @@ func main() {
 
 	//acortar slice
 	sliceAcortado := acortarSlice(numeros)
-	fmt.Println("Capacidad:", cap(numeros), "/n Longitud", len(numeros))
-	fmt.Println("Capacidad:", cap(sliceAcortado), "/n Longitud", len(sliceAcortado))
+	fmt.Println("Capacidad:", cap(numeros), "\n Longitud", len(numeros))
+	fmt.Println("Capacidad:", cap(sliceAcortado), "\n Longitud", len(sliceAcortado))
 	//no entiendo por que la capacidad da como output 4
 
 	fmt.Println("Slice acortado: ", sliceAcortado)
