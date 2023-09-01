@@ -11,7 +11,6 @@ func crearSumador(constante int) func(int) int {
 }
 
 func main() {
-
 	// Creamos función sumadora
 	sumaCinco := crearSumador(5)
 
